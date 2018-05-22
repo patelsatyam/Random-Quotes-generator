@@ -1,0 +1,49 @@
+h1 {
+	font-style: italic;
+	color: #009ACD;
+}
+
+h2 {
+	font-family: 'Yellowtail';
+	font-style: italic;
+	font-weight: normal;
+}
+
+h4 {
+	color: #009ACD;
+}
+
+h5 {
+	color: white;
+}
+body {
+	background: url("mountains_cordillera_sky_sunset_.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.btn-default, .btn-default:focus {
+	background: #009ACD;
+	color: white;
+	font-weight: bold;
+	width: 100%;
+}
+
+.btn-default:hover {
+	background: white;
+	color: #009ACD;
+}
+
+#container {
+	background: rgba(50, 50, 50, 0.6);
+	color: white;
+	max-width: 1200px;
+	margin: 50px auto;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+#text-container {
+  min-height: 170px;
+}
+
