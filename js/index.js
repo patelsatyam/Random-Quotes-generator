@@ -65,8 +65,8 @@ var quotes = [
     author: "Hugh Laurie"
   },
   {
-   quote: "To wake up and answer only to myself...that would mean everything",
-    author: "Neal Caffrey"
+   quote: "Everyone has a price,the important thing is to find out what it is.",
+    author: "Pablo Escobar"
   },
   {
     quote: "The means should always justify the ends",
@@ -75,6 +75,10 @@ var quotes = [
   {
     quote: "If you want a happy ending, that depends, of course, on where you stop your story.",
     author: "Orson Welles"
+  },
+  {
+   quote: "There can only be one King.",
+   author: "Pablo Escobar"
   }
 ];
 
