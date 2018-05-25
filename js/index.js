@@ -94,6 +94,7 @@ function updateQuote() {
   currentIndex = index;
   $('#quote').html(quotes[index].quote);
   $('#author').html(quotes[index].author);  
+  $('#twitter').click(shareTweet)
 }
 
 $(function () {
@@ -102,3 +103,17 @@ $(function () {
     updateQuote();
   });
 });
+
+
+// Function to share tweet
+function shareTweet() {
+  var quoteToTweet = quotes[currentIndex].quote;
+
+  // Cuts the quote if length is longer than 100
+  if (quoteToTweet.length > 100) {
+    quoteToTweet = quoteToTweet.substr(0, 100).match(/(^.+)(\s)/)[0] + "...";
+  }
+  quoteToTweet = encodeURI("\"" + quoteToTweet);
+  window.open("https://twitter.com/intent/tweet?text=" + quoteToTweet + "\"");
+};
+
